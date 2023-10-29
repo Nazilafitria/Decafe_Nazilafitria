@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `tb_user` (
   `level` int DEFAULT NULL,
   `nohp` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table db_decafe.tb_user: ~4 rows (approximately)
 INSERT INTO `tb_user` (`id`, `nama`, `username`, `password`, `level`, `nohp`) VALUES
